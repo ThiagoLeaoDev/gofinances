@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'react-native'
+import { Feather } from '@expo/vector-icons'
 
 import {
   Container,
@@ -26,6 +26,7 @@ export function Dashboard(){
               <UserName>Thiago</UserName>
             </User>
           </UserInfo>
+          <Feather name="power"/>
         </UserWrapper>
       </Header>
     </Container>
